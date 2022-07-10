@@ -476,6 +476,10 @@ nav {
     .container{
         width: 100%;
     }
+    .content{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
     nav {
         justify-content: space-between;
     }
@@ -490,4 +494,7 @@ nav {
     .homeText{
         font-size: 3rem;
     }   
+    .meal_card{
+        width: 95%;
+    }
 }
