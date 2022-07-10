@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Foodies App</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <header>
+            <a class="logo" href="index.html" id="home_link">
+                <img src="./images/logo.png" alt="logo">
+                <span id="logo_text"><span>Foodies</span>
+            </a>
+            <nav>
+                <div id="search">
+                    <div id="search_wrapper">
+                        <input type="text" id="search_input" placeholder="Enter meal name...">
+                    </div>
+                    <button id="search_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div id="my_fav">
+                    <div id="heart_container">
+                        <a href="#"><i class="fa-solid fa-heart fa-3x" title="My Fav Meals"
+                                onclick="showFavMeals()"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+
+        <!-- Element inside which search results will be shown -->
+        <div class="content">
+            <img class="homeImg" src="./images/home.jpg" alt="home" srcset="">
+            <h1 class="homeText">Welcome to Foodies</h1>
+        </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Josefin+Sans&family=Josefin+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* colors */
+    --yellow: #ffc300;
+    --yellow-dark: #faa307;
+    --yellow-darker: #f48c06;
+    --pink: #ef233c;
+    --white: #fff;
+    --white-dark: #EEF0F4;
+    --white-darker: #D9DADE;
+    --gray: #808080;
+    --black: #000000;
+    --blue: #0d0d3d;
+
+    /* Font families */
+    --font-primary: 'Josefin Sans', sans-serif;
+    --font-logo: 'Gloria Hallelujah', cursive;
+    --font-message: 'Josefin Slab', serif;
+
+    /* scrollbar colors */
+    --scrollbarBG: #08080800;
+    --thumbBG: #07070750;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* box-model */
+    width: 100%;
+    height: 100vh;
+    background: var(--yellow);
+    padding: 1rem;
+}
+
+.container {
+    /* box-model */
+    width: 80%;
+    height: 99.4%;
+    margin: auto;
+    background-color: var(--white);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+/* ------- Home Page ------------ */
+
+/*  Header Section  */
+header {
+    /* box-model */
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
+    background: var(--white);
+    
+    /* display */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    /* positioning */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#home_link {
+    /* typography */
+    text-decoration: none;
+}
+
+.logo {
+    /* display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* box-model */
+    width: 20%;
+}
+
+.logo img {
+    /* box-model */
+    width: 5rem;
+}
+
+#logo_text {
+    /* typography */
+    font-family: var(--font-logo);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#logo_text span {
+    /* typography */
+    color: var(--black);
+}
+
+nav {
+    /* box-model */
+    width: 80%;
+
+    /* display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    /* box-model */
+    width: 70%;
+
+    /* display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search_wrapper {
+    /* box-model */
+    width: 50%;
+    box-shadow: 1px 1px 3px var(--gray);
+
+    /* positioning */
+    position: relative;
+}
+
+#search_input {
+    /* box-model */
+    width: 100%;
+    padding: 1.1rem 1.5rem;
+    outline: none;
+    border-left: 1px solid var(--yellow);
+    border-top: 1px solid var(--yellow);
+    border-bottom: 1px solid var(--yellow);
+    border-right: 0;
+    background: var(--white-dark);
+    box-shadow: inset 13.51px 13.51px 15px var(--white-darker), inset -13.51px -13.51px 15px #FFFFFF;
+
+    /* typography */
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--blue);
+    font-family: var(--font-primary);
+
+}
+
+
+#search_btn {
+    /* box-model */
+    padding: 1.3rem;
+    width: 4.5rem;
+    outline: none;
+    border: 0;
+    background: var(--yellow);
+    color: var(--white);
+    box-shadow: 1px 1px 3px var(--gray);
+
+    /* typography */
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+#back_btn {
+    /* box-model */
+    padding: 1.3rem;
+    width: 9rem;
+    outline: none;
+    border: 0;
+    background: var(--yellow-dark);
+    color: var(--white);
+    box-shadow: 1px 1px 3px var(--gray);
+
+    /* typography */
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    /* Misc */
+    cursor: pointer;
+}
+
+
+#heart_container i {
+    /* box-model */
+    margin-right: 3rem;
+
+    /* typography */
+    color: var(--pink);
+}
+
+
+/* --- Header section end */
+
+
+/* ----- Result Section -----*/
+.content {
+    /* box-model */
+    width: 100%;
+    height: 80%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    /* display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.content .homeImg {
+    /* box-model */
+    width: 100%;
+    height: 100%;
+}
+
+.homeText {
+    /* positioning */
+    position: absolute;
+
+    /* typography */
+    color: var(--white);
+    font-size: 4rem;
+    font-family: var(--font-primary);
+    text-shadow: 0 3px 10px var(--black);
+
+}
+
+/* --- Container Scrollbar --- */
+
+.content::-webkit-scrollbar {
+    /* box-model */
+    width: 10px;
+}
+
+.content {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.content::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+/*  Result card */
+.card {
+    /* box-model */
+    width: 25rem;
+    padding: 1rem;
+    background: var(--white-dark);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    
+    /* display */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+    /* positioning */
+    position: relative;
+
+    /* typography */
+    font-family: 'Roboto', sans-serif;
+
+    /* Misc */
+    transition: all .2s;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.card_img {
+    /* box-model */
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    /* box-model */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+    /* display */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.meal_info {
+    font-size: 1.5rem;
+}
+
+
+.meal_name {
+    /* Typography */
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.fav_btn_wrapper {
+    /* box-model */
+    padding: 1rem;
+    border-radius: 50%;
+    background: var(--white-dark);
+
+    /* positioning */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fav-btn {
+    color: var(--pink);
+}
+
+.recipe_btn {
+    /* box-model */
+    width: 100%;
+    margin: auto;
+    border: 0;
+    background-color: var(--yellow-dark);
+    padding: 1rem 1.3rem;
+
+    /* Typography */
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+
+    /* Misc */
+    cursor: pointer;
+}
+
+.recipe_btn:hover {
+    background-color: var(--yellow-darker);
+}
+
+
+/* Result card end */
+
+/* --------- Home page end ---------- */
+
+
+/* ==============Meal Page============== */
+
+.meal_card {
+    /* box-model */
+    width: 80%;
+    background-color: var(--white-dark);
+
+    /* display */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.meal_full_name {
+    /* box-model */
+    margin-top: 2rem;
+
+    /* Typography */
+    font-family: var(--font-primary);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.meal_details {
+    /* box-model */
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.meal_img {
+    /* box-model */
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+.meal_img img {
+    /* box-model */
+    width: 100%;
+    height: 100%;
+}
+
+.meal_details table {
+    /* box-model */
+    width: 100%;
+
+    /* Typography */
+    font-family: var(--font-primary);
+    font-size: 1.8rem;
+}
+
+.instructions_head {
+    /* box-model */
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    /* Typography */
+    font-size: 3rem;
+    font-family: var(--font-primary);
+}
+
+.instructions_body {
+    /* Typography */
+    font-family: var(--font-primary);
+    font-size: 1.8rem;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+#no_data_found {
+    /* Typography */
+    font-size: 4rem;
+    color: var(--yellow-darker);
+    font-family: var(--font-message);
+}
+
+.empty_favlist {
+    /* box-model */
+    width: 80%;
+    
+    /* Typography */
+    font-family: var(--font-message);
+    font-weight: 300;
+    font-size: 4rem;
+    color: var(--black);
+    text-align: center;
+    text-shadow: 5px 5px 8px var(--white-dark);
+}
+
+
+
+
+
+
+
+/* Fav Meal Page */
+
+.remove-fav-btn {
+    color: var(--pink);
+}
+
+
+
+@media screen and (max-width:1000px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    #search {
+        justify-content: flex-start;
+    }
+
+    #search_wrapper {
+        width: 100%;
+    }
+}
