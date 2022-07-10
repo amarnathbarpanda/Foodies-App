@@ -439,7 +439,7 @@ nav {
 .empty_favlist {
     /* box-model */
     width: 80%;
-    
+
     /* Typography */
     font-family: var(--font-message);
     font-weight: 300;
@@ -473,7 +473,9 @@ nav {
     header {
         flex-direction: column;
     }
-
+    .container{
+        width: 100%;
+    }
     nav {
         justify-content: space-between;
     }
@@ -485,4 +487,7 @@ nav {
     #search_wrapper {
         width: 100%;
     }
+    .homeText{
+        font-size: 3rem;
+    }   
 }
