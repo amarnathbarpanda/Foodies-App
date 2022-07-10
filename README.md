@@ -39,7 +39,7 @@
 
     - I got a better hold on the core concepts of CSS.
     - Learnt the JavaScript concepts like functions, DOM API, events, API calls using fetch API of browser and error handling.
-    - Learnt to use [Meal DB API] (https://www.themealdb.com/api.php)
+    - Learnt to use [Meal DB API] (https://www.themealdb.com/api.php/)
     
 ## Steps to run this project
 
