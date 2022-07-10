@@ -21,19 +21,20 @@
 
 ###### Home Page
 
-![Home Page Screenshot(images/screenshot1.png)
+![Home Page Screenshot](images/screenshot1.png)
 
 ###### Home Page Searched Results
 
-![Home Page Screenshot(images/screenshot2.png)
+![Home Page Screenshot](images/screenshot2.png)
 
 ###### Meal Details Page
 
-![Home Page Screenshot(images/screenshot3.png)
+![Home Page Screenshot](images/screenshot3.png)
 
 ###### Favourite Meals Page
 
-![Home Page Screenshot(images/screenshot4.png)
+![Home Page Screenshot](images/screenshot4.png)
+
 ## Learnings by building this beautiful Foodies App
 
     - I got a better hold on the core concepts of CSS.
