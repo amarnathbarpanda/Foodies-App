@@ -1,8 +1,8 @@
 # Foodies-App
 
--> This is a meal app build using Vanilla JavaScript.
--> It uses Font Awesome Icons to make thing interactive and meaningful.
--> It has an amazing UI and provides an amazing user experience.
+- This is a meal app build using Vanilla JavaScript.
+- It uses Font Awesome Icons to make thing interactive and meaningful.
+- It has an amazing UI and provides an amazing user experience.
 
 1. Home Page
 
@@ -20,9 +20,9 @@
     
 ## Learnings by building this beautiful Foodies App
 
-    -> I got a better hold on the core concepts of CSS.
-    -> Learnt the JavaScript concepts like functions, DOM API, events, API calls using fetch API of browser and error handling.
+    - I got a better hold on the core concepts of CSS.
+    - Learnt the JavaScript concepts like functions, DOM API, events, API calls using fetch API of browser and error handling.
     
 ## Steps to run this project
-===========================
-    Nothing fancy just clone it from Github and open index.html file in browser.
+
+    - Nothing fancy just clone it from Github and open index.html file in browser.
