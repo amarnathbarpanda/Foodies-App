@@ -17,7 +17,23 @@
 
     This is the page where the user will find all the meals that he/she has added to the favourite meals list. All the information is shown in a beautiful card elements which has the same functionalities as the Home Page search results except a change it has a remove from favourite list button instead of add to favourite button.
     
-    
+## Screenshots
+
+###### Home Page
+
+![Home Page Screenshot(images/screenshot1.png)
+
+###### Home Page Searched Results
+
+![Home Page Screenshot(images/screenshot2.png)
+
+###### Meal Details Page
+
+![Home Page Screenshot(images/screenshot3.png)
+
+###### Favourite Meals Page
+
+![Home Page Screenshot(images/screenshot4.png)
 ## Learnings by building this beautiful Foodies App
 
     - I got a better hold on the core concepts of CSS.
