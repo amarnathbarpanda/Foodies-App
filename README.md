@@ -1,6 +1,6 @@
 # Foodies-App
 
-- This is a meal app build using Vanilla JavaScript.
+- This is a meal app built using Vanilla JavaScript.
 - It uses Font Awesome Icons to make thing interactive and meaningful.
 - It has an amazing UI and provides an amazing user experience.
 
